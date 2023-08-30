@@ -1,0 +1,543 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2023-08-30T04:25:37Z",
+    "creators": [
+      "Organization: Uchiha Cortez",
+      "Tool: FOSSA v0.12.0"
+    ],
+    "licenseListVersion": "3.18",
+    "documentDescribes": [
+      "SPDXRef-npm-core-js-3.6.5",
+      "SPDXRef-npm-fractional-1.0.0",
+      "SPDXRef-npm-regenerator-runtime-0.13.7"
+    ]
+  },
+  "name": "32098/github.com/CortezFrazierJr/my_recipe_book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+  "documentNamespace": "https://s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/custom%2B32098%2Fgithub.com%2FCortezFrazierJr%2Fmy_recipe_book%243c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+  "dataLicense": "CC0-1.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+      "name": "https://github.com/CortezFrazierJr/my_recipe_book.git",
+      "versionInfo": "3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+      "filesAnalyzed": true,
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: Custom (provided build)",
+      "supplier": "Organization: Uchiha Cortez",
+      "packageFileName": "custom+32098/github.com/CortezFrazierJr/my_recipe_book$3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+      "summary": "Project uploaded via Provided Builds from fossa-cli",
+      "licenseDeclared": "LicenseRef-ISC-26342263",
+      "copyrightText": "NONE",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4551be8a9eb93db9e2d99238db9c8357"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d29d9d988ba52bccc966b386065c96cb7ee8d1e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "10f0b7dea96e7a7d704ba7baf6334b51a598655d17a36e048742f148e85fa7cb"
+        }
+      ],
+      "externalRefs": []
+    },
+    {
+      "SPDXID": "SPDXRef-npm-core-js-3.6.5",
+      "name": "core-js",
+      "versionInfo": "3.6.5",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://registry.npmjs.org/core-js/-/core-js-3.6.5.tgz",
+      "originator": "Organization: NPM",
+      "supplier": "Person: zloirock@zloirock.ru",
+      "summary": "Standard library",
+      "hasFiles": [
+        "SPDXRef-npm-core-js-3.6.5-package.json",
+        "SPDXRef-npm-core-js-3.6.5-LICENSE"
+      ],
+      "licenseDeclared": "LicenseRef-MIT-13631848",
+      "copyrightText": "2014-2020 Denis Pushkarev",
+      "homepage": "https://www.npmjs.com/package/core-js",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "27ac17fe58b0bbd313ed28ec546dd90e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9fbe1cad50449efda1d08aabca41319d0cef1ef"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f1fca5953b25c938c72fcc9a9b70ef97c4a98cbdbc3810f8d2484c68a7a64f3"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/core-js@3.6.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-fractional-1.0.0",
+      "name": "fractional",
+      "versionInfo": "1.0.0",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://registry.npmjs.org/fractional/-/fractional-1.0.0.tgz",
+      "originator": "Organization: NPM",
+      "supplier": "Person: erik.garrison@gmail.com",
+      "summary": "fraction arithmetic",
+      "hasFiles": [
+        "SPDXRef-npm-fractional-1.0.0-README.md",
+        "SPDXRef-npm-fractional-1.0.0-releases-fraction-0.2.js",
+        "SPDXRef-npm-fractional-1.0.0-index.js",
+        "SPDXRef-npm-fractional-1.0.0-releases-fraction-0.1.js",
+        "SPDXRef-npm-fractional-1.0.0-package.json"
+      ],
+      "licenseDeclared": "LicenseRef-MIT",
+      "copyrightText": "2009 Erik Garrison <erik@hypervolu.me>\n\t2009 Erik Garrison <erik.garrison@gmail.com>",
+      "homepage": "https://www.npmjs.com/package/fractional",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "42312287d27e1c9745e685909369ad21"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5c2c4b297a5ff886daea68ea31fc802b51de2e39"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "953e04984878485320653537b3f6232221811636a01fc8f76399e8118718fb97"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/fractional@1.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-regenerator-runtime-0.13.7",
+      "name": "regenerator-runtime",
+      "versionInfo": "0.13.7",
+      "filesAnalyzed": true,
+      "downloadLocation": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz",
+      "originator": "Organization: NPM",
+      "supplier": "Person: ben@benjamn.com",
+      "summary": "Runtime for Regenerator-compiled generator and async functions.",
+      "hasFiles": [
+        "SPDXRef-npm-regenerator-runtime-0.13.7-LICENSE",
+        "SPDXRef-npm-regenerator-runtime-0.13.7-package.json",
+        "SPDXRef-npm-regenerator-runtime-0.13.7-path.js",
+        "SPDXRef-npm-regenerator-runtime-0.13.7-runtime.js"
+      ],
+      "licenseDeclared": "LicenseRef-MIT-13511546",
+      "copyrightText": "2014 present, Facebook, Inc.",
+      "homepage": "https://www.npmjs.com/package/regenerator-runtime",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3920251b1ede9180a3a2d4d299d82a78"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48e85cacd9d778a6f73ba138ac24867e14881370"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f78137c4578cc90a42bc0956cc55c9f3c34c1459ffddfe7b7461ae94a174740"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/regenerator-runtime@0.13.7"
+        }
+      ]
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-ISC-26342263",
+      "name": "ISC",
+      "extractedText": "ISC License\n\tCopyright (c) 2004-2010 by Internet Systems Consortium, Inc. (\"ISC\")\n\tCopyright (c) 1995-2003 by Internet Software Consortium\n\tPermission to use, copy, modify, and /or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\tTHE SOFTWARE IS PROVIDED \"AS IS\" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n"
+    },
+    {
+      "licenseId": "LicenseRef-MIT-13631848",
+      "name": "MIT",
+      "extractedText": "Copyright (c) 2014-2020 Denis Pushkarev\n\t\n\tPermission is hereby granted, free of charge, to any person obtaining a copy\n\tof this software and associated documentation files (the \"Software\"), to deal\n\tin the Software without restriction, including without limitation the rights\n\tto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\tcopies of the Software, and to permit persons to whom the Software is\n\tfurnished to do so, subject to the following conditions:\n\t\n\tThe above copyright notice and this permission notice shall be included in\n\tall copies or substantial portions of the Software.\n\t\n\tTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\tIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\tFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\tAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\tLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\tOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n\tTHE SOFTWARE.\n\t\n"
+    },
+    {
+      "licenseId": "LicenseRef-MIT",
+      "name": "MIT",
+      "extractedText": "MIT License\n\tCopyright (c) <year> <copyright holders>\n\t\n\tPermission is hereby granted, free of charge, to any person obtaining a copy\n\tof this software and associated documentation files (the \"Software\"), to deal\n\tin the Software without restriction, including without limitation the rights\n\tto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\tcopies of the Software, and to permit persons to whom the Software is\n\tfurnished to do so, subject to the following conditions:\n\t\n\tThe above copyright notice and this permission notice shall be included in all\n\tcopies or substantial portions of the Software.\n\t\n\tTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\tIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\tFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\tAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\tLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\tOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n\tSOFTWARE.\n"
+    },
+    {
+      "licenseId": "LicenseRef-MIT-13511546",
+      "name": "MIT",
+      "extractedText": "MIT License\n\t\n\tCopyright (c) 2014-present, Facebook, Inc.\n\t\n\tPermission is hereby granted, free of charge, to any person obtaining a copy\n\tof this software and associated documentation files (the \"Software\"), to deal\n\tin the Software without restriction, including without limitation the rights\n\tto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\tcopies of the Software, and to permit persons to whom the Software is\n\tfurnished to do so, subject to the following conditions:\n\t\n\tThe above copyright notice and this permission notice shall be included in all\n\tcopies or substantial portions of the Software.\n\t\n\tTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\tIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\tFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\tAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\tLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\tOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n\tSOFTWARE.\n\t\n"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6"
+    },
+    {
+      "spdxElementId": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-core-js-3.6.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-core-js-3.6.5",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6"
+    },
+    {
+      "spdxElementId": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-fractional-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-fractional-1.0.0",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6"
+    },
+    {
+      "spdxElementId": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-regenerator-runtime-0.13.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-regenerator-runtime-0.13.7",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-custom-32098-github.com-CortezFrazierJr-my-recipe-book-3c6bc47ed82dae7a67339b9440a7372a79e07ba6"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-core-js-3.6.5",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-core-js-3.6.5-package.json"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-core-js-3.6.5",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-core-js-3.6.5-LICENSE"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-fractional-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-fractional-1.0.0-README.md"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-fractional-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-fractional-1.0.0-releases-fraction-0.2.js"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-fractional-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-fractional-1.0.0-index.js"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-fractional-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-fractional-1.0.0-releases-fraction-0.1.js"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-fractional-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-fractional-1.0.0-package.json"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-regenerator-runtime-0.13.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-regenerator-runtime-0.13.7-LICENSE"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-regenerator-runtime-0.13.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-regenerator-runtime-0.13.7-package.json"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-regenerator-runtime-0.13.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-regenerator-runtime-0.13.7-path.js"
+    },
+    {
+      "spdxElementId": "SPDXRef-npm-regenerator-runtime-0.13.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-npm-regenerator-runtime-0.13.7-runtime.js"
+    }
+  ],
+  "files": [
+    {
+      "fileName": "package.json",
+      "SPDXID": "SPDXRef-npm-core-js-3.6.5-package.json",
+      "comment": "extracted from SPDXRef-npm-core-js-3.6.5",
+      "licenseConcluded": "LicenseRef-MIT-13631848",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT-13631848"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "04ddc8a943888569f9012c4a420f4b09"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a85cf80876406af8ce45ad4633c656c2c9d2957"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4003e24135fde907d7069bb73aad64092cfe662b26914296f2f7f1e16e1f15a6"
+        }
+      ]
+    },
+    {
+      "fileName": "LICENSE",
+      "SPDXID": "SPDXRef-npm-core-js-3.6.5-LICENSE",
+      "comment": "extracted from SPDXRef-npm-core-js-3.6.5",
+      "licenseConcluded": "LicenseRef-MIT-13631848",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT-13631848"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "04ddc8a943888569f9012c4a420f4b09"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a85cf80876406af8ce45ad4633c656c2c9d2957"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4003e24135fde907d7069bb73aad64092cfe662b26914296f2f7f1e16e1f15a6"
+        }
+      ]
+    },
+    {
+      "fileName": "README.md",
+      "SPDXID": "SPDXRef-npm-fractional-1.0.0-README.md",
+      "comment": "extracted from SPDXRef-npm-fractional-1.0.0",
+      "licenseConcluded": "LicenseRef-MIT",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b40aef4159dcb8026cebec9828b3d6c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6ec732d6feaabe9e6a8d53ee05355faaa786ba0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b83a3ba890706d4956a21499db2735e18271cfe1be3756eefbfe36b3b43f675f"
+        }
+      ]
+    },
+    {
+      "fileName": "releases/fraction-0.2.js",
+      "SPDXID": "SPDXRef-npm-fractional-1.0.0-releases-fraction-0.2.js",
+      "comment": "extracted from SPDXRef-npm-fractional-1.0.0",
+      "licenseConcluded": "LicenseRef-MIT",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b40aef4159dcb8026cebec9828b3d6c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6ec732d6feaabe9e6a8d53ee05355faaa786ba0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b83a3ba890706d4956a21499db2735e18271cfe1be3756eefbfe36b3b43f675f"
+        }
+      ]
+    },
+    {
+      "fileName": "index.js",
+      "SPDXID": "SPDXRef-npm-fractional-1.0.0-index.js",
+      "comment": "extracted from SPDXRef-npm-fractional-1.0.0",
+      "licenseConcluded": "LicenseRef-MIT",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b40aef4159dcb8026cebec9828b3d6c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6ec732d6feaabe9e6a8d53ee05355faaa786ba0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b83a3ba890706d4956a21499db2735e18271cfe1be3756eefbfe36b3b43f675f"
+        }
+      ]
+    },
+    {
+      "fileName": "releases/fraction-0.1.js",
+      "SPDXID": "SPDXRef-npm-fractional-1.0.0-releases-fraction-0.1.js",
+      "comment": "extracted from SPDXRef-npm-fractional-1.0.0",
+      "licenseConcluded": "LicenseRef-MIT",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b40aef4159dcb8026cebec9828b3d6c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6ec732d6feaabe9e6a8d53ee05355faaa786ba0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b83a3ba890706d4956a21499db2735e18271cfe1be3756eefbfe36b3b43f675f"
+        }
+      ]
+    },
+    {
+      "fileName": "package.json",
+      "SPDXID": "SPDXRef-npm-fractional-1.0.0-package.json",
+      "comment": "extracted from SPDXRef-npm-fractional-1.0.0",
+      "licenseConcluded": "LicenseRef-MIT",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b40aef4159dcb8026cebec9828b3d6c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6ec732d6feaabe9e6a8d53ee05355faaa786ba0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b83a3ba890706d4956a21499db2735e18271cfe1be3756eefbfe36b3b43f675f"
+        }
+      ]
+    },
+    {
+      "fileName": "LICENSE",
+      "SPDXID": "SPDXRef-npm-regenerator-runtime-0.13.7-LICENSE",
+      "comment": "extracted from SPDXRef-npm-regenerator-runtime-0.13.7",
+      "licenseConcluded": "LicenseRef-MIT-13511546",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT-13511546"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "57a79768a3b1e4d0f3a3787048a96356"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "885285cb4b998cf6f6cbbe82b473686914f06439"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd"
+        }
+      ]
+    },
+    {
+      "fileName": "package.json",
+      "SPDXID": "SPDXRef-npm-regenerator-runtime-0.13.7-package.json",
+      "comment": "extracted from SPDXRef-npm-regenerator-runtime-0.13.7",
+      "licenseConcluded": "LicenseRef-MIT-13511546",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT-13511546"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "57a79768a3b1e4d0f3a3787048a96356"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "885285cb4b998cf6f6cbbe82b473686914f06439"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd"
+        }
+      ]
+    },
+    {
+      "fileName": "path.js",
+      "SPDXID": "SPDXRef-npm-regenerator-runtime-0.13.7-path.js",
+      "comment": "extracted from SPDXRef-npm-regenerator-runtime-0.13.7",
+      "licenseConcluded": "LicenseRef-MIT-13511546",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT-13511546"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "57a79768a3b1e4d0f3a3787048a96356"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "885285cb4b998cf6f6cbbe82b473686914f06439"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd"
+        }
+      ]
+    },
+    {
+      "fileName": "runtime.js",
+      "SPDXID": "SPDXRef-npm-regenerator-runtime-0.13.7-runtime.js",
+      "comment": "extracted from SPDXRef-npm-regenerator-runtime-0.13.7",
+      "licenseConcluded": "LicenseRef-MIT-13511546",
+      "licenseInfoInFile": [
+        "LicenseRef-MIT-13511546"
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "57a79768a3b1e4d0f3a3787048a96356"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "885285cb4b998cf6f6cbbe82b473686914f06439"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd"
+        }
+      ]
+    }
+  ]
+}
