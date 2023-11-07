@@ -25,6 +25,12 @@
         }
       ]
     },
+    "authors": [
+      {
+        "name": "FOSSA, Inc.",
+        "email": "support@fossa.com"
+      }
+    ],
     "manufacture": {
       "name": "FOSSA, Inc.",
       "url": [
